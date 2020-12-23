@@ -1,0 +1,231 @@
+body{
+    background-color: #dddddd;
+}
+
+/* Bắt đầu header */
+.header{
+    background-color: #192433;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.header-logo img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-nav{
+    margin-left: 20px;
+}
+
+.list-nav a{
+    text-decoration: none;
+    color: #222222;
+    height: 25px;
+    background-color: #0f82af;
+    padding: 4px 18px;
+    font-size: 15px;
+}
+
+.list-nav a:hover{
+    background-color: #0e7299;
+}
+
+/* Kết thúc header */
+
+/* Bắt đầu sidebar */
+
+.sidebar{
+    margin: 20px auto;
+}
+
+.sidebar h4{
+    margin-bottom: 20px;
+}
+
+.search-content{
+    width: 170px;
+    height: 28px;
+    border: 1px solid #AAA;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.search button{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.search button:hover{
+    background-color: #dddddd;
+}
+
+.menu{
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 215px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: #fff;
+}
+
+/* Kết thúc sidebar */
+
+/* Bắt đầu main */
+
+.main{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main>h4{
+    margin: 20px 0 10px 20px;
+    
+}
+
+.content-write {
+    resize: none;
+    height: 80px;
+    width: 450px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.layout-main{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.content-layout{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.content-layout .username-post{
+    margin: 10px 0;
+}
+
+.content-layout .time-post{
+    margin: 10px 0;
+}
+
+.content-layout .content-post{
+    line-height: 22px;
+}
+
+.content-layout img{
+    width: 100%;
+}
+
+.button-likeshare{
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.button-list{
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.button-list .button-post{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-list .button-post:hover{
+    background-color: #ccc;
+}
+
+.comment{
+    margin: 10px 0;
+    display: flex;
+    padding-left: 50px;
+}
+
+.comment .user-comment{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.comment .content-comment{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.comment-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-form .comment-type{
+    flex-grow: 9;
+    border: 1px solid #AAA;
+    border-radius: 10px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.comment-form .comment-send{
+    border-radius: 8px;
+    border: 1px solid #AAA;
+    flex-grow: 1;
+}
+
+/* Kết thúc main */
+
+/* Bắt đầu adv */
+
+.adv {
+    margin: 70px auto 20px auto;
+
+}
+
+.adv-img img{
+    height: 130px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+/* Kết thúc adv */
+
+/* Bắt đầu footer */
+
+.footer{
+    background-color: #192433;
+    color: #ffffff;
+    
+}
+
+.footer-list{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+/* Kết thúc footer */

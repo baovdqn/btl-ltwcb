@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học tập</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/css-child.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Bắt đầu header -->
+
+        <div class="row header">
+            <div class="header-logo">
+                <a href="./index.html"><img class="logo" src="./img/logo.png" alt="logo-forum"></a>
+            </div>
+            <div class="header-nav">
+                <ul class="nav">
+                    <li class="list-nav"><a href="./dangnhap.html">Đăng nhập</a> </li>
+                    <li class="list-nav"><a href="./dangki.html">Đăng kí</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- két thúc header -->
+
+        <!-- Bắt đầu sidebar -->
+        <div class="row">
+            <div class="col-lg-2 sidebar">
+                <h4>Chuyên mục</h4>
+                <div class="search">
+                    <input class="search-content" type="text" placeholder="Nội dung tìm kiếm">
+                    <button>Tìm</button>
+                </div>
+                <ul class="menu">
+                    <li class="menu-list"><a class="menu-link " href="./hoctap.html">Học tập</a></li>
+                    <li class="menu-list"><a class="menu-link" href="./sanpham.html">Sản phẩm công nghệ</a></li>
+                    <li class="menu-list"><a class="menu-link" href="./maytinh.html">Máy tính</a></li>
+                    <li class="menu-list"><a class="menu-link" href="./phanmem.html">Phần mềm & game</a></li>
+                    <li class="menu-list"><a class="menu-link" href="./khutuyendung.html">Khu tuyển dụng</a></li>
+                    <li class="menu-list"><a class="menu-link" href="./khuthuongmai.html">Khu thương mại</a></li>
+                </ul>
+            </div>
+
+            <!-- Kết thúc sidebar -->
+
+            <!-- Bắt đầu main -->
+
+            <div class="col-lg-8 main">
+                <h4 class="">Tạo bài viết mới</h4>
+                <div class="write-post">
+                    <textarea class="content-write" name="content" placeholder="Viết nội dung bài viết"></textarea>
+                    <br>
+                    <input type="file" value="Chọn tệp">
+                    <input type="button" value="Đăng bài">
+                    <div class="layout-main">
+                        <div class="content-layout">
+                            <h5 class="username-post">Admin</h5>
+                            <p class="time-post">12:00 AM</p>
+                            <p class="content-post">
+                                1.Kỹ thuật lập trình:
+                                Bạn học Pascal,C,Java...hay ngôn ngữ gì không quan trọng,quan trọng là phải hiểu và vận dụng
+                                dc những kiến thức ở môn học đó để tạo tư duy giải quyết bài toán/vấn đề,trực tiếp ứng dụng
+                                vào từng dòng code...chính là môn này.
+                                Dù bạn có theo lập trình gì,thậm chí là theo mạng(Tư duy để học lập trình mạng),thì bạn đều
+                                cần đến môn này.Giả sử môn PHP hay Python...nó đều xài chung những cú pháp với C(ví dụ: Vòng
+                                lặp "for()"...,cấu trúc rẽ nhánh "Switch...case"...v.v..) tất cả hầu như đều thế mà thôi,chả
+                                có cái gì là khó cả.Bạn chắc kỹ thuật lập trình thì việc học môn lập trình nào đó như
+                                Mobile...dễ như bạn đi dạo chơi mà thôi!<br>
+                                -> Đây là thứ đầu tiên và quan trọng nhất mà bạn phải làm chủ nó.<br>
+                                -> Đừng tách rời môn cấu trúc dữ liệu thuật toán với thằng kỹ thuật lập trình này nhé,vì nó
+                                liên quan trực tiếp.Và như ở Học viên công nghệ bưu chính viễn thông thì khi bạn học kỹ
+                                thuật lập trình cũng là bạn đang học CTDLTT đấy(tích hợp vào nhau chứ ko phân chia).
+                                ->Thật ra chỉ có sinh viên đang đi học mới sợ môn này thôi,chứ ra trường đi làm một thời
+                                gian rồi thấy nó dễ như ăn chuối😀
+                            </p>
+                            <img src="./img/laptrinh.jpg" alt="">
+                        </div>
+                        <div class="button-likeshare">
+                            <ul class="button-list">
+                                <li><a class="button-post" href="#">Thích</a></li>
+                                <li><a class="button-post" href="#">Bình luận</a></li>
+                                <li><a class="button-post" href="#">Chia sẻ</a></li>
+                            </ul>
+                        </div>
+                        <div class="comment">
+                            <p class="user-comment">Phạm Bảo</p>
+                            <p class="content-comment">Bài viết rất hay</p>
+                        </div>
+                        <div class="comment-form">
+                            <input type="text" placeholder=" Viết bình luận" class="comment-type">
+                            <input type="button" value="Gửi" class="comment-send">
+                        </div>
+                    </div>
+                    <div class="layout-main">
+                        <div class="content-layout">
+                            <h5 class="username-post">Admin</h5>
+                            <p class="time-post">12:00 AM</p>
+                            <p class="content-post">
+                                2.Lập trình Hướng đối tượng:
+                                Dù bạn theo Java hay C++ gì đó thì cũng ko quan trọng lắm.Quan trọng là bạn phải nắm dc cái
+                                "tầm nhìn" của thằng hướng đối tượng.
+                                Quan trọng là tầm nhìn thôi nhé.
+                                Đại khái như chương trình này cần bao nhiêu lớp(ví dụ :lớp CHÓ,lớp MÈO..).lớp này cần bao
+                                nhiều Phương thức(vÍ dụ: phương thức SỦA,phương thức CHẠY...-một Phương thức luôn là một
+                                động từ),một biến nào đó xài public(một biến xài public tức là nó dc "gọi" ở bất cứ đâu
+                                trong chương trình) hay private(chỉ dc gọi trong lớp của nó)....?
+                                Khi bạn đã code cho từng phương thức thì vấn đề đã ...quay về kỹ thuật lập trình HÀM tức là
+                                môn ở phía trên! Ví dụ: ở phương thức SỦA của lớp CHÓ,ta cho chạy một cái vòng lặp
+                                for,IF-ELSE...gì đó rồi in ra màn hình câu "gâu gâu..." (cout << "gâu gâu..." ;)....rõ ràng
+                                    là nó đã dùng kiến thức của kỹ thuật LT. Phải so sánh dc cái khác nhau giữa Lập trình
+                                    HÀM,THỦ TỤC VÀ HƯỚNG ĐÔI TƯỢNG. Bạn chỉ dùng "tầm nhìn" của OOP để tự học,để làm những
+                                    thứ khác mà thôi . ->OOP thì bạn ko cần phải giỏi như Kỹ thuật lập trình,chỉ cần hiểu
+                                    bản chất ,"tầm nhìn",là dc.
+                            </p>
+                        </div>
+                        <div class="button-likeshare">
+                            <ul class="button-list">
+                                <li><a class=" button-post" href="#">Thích</a></li>
+                                <li><a class=" button-post" href="#">Bình luận</a></li>
+                                <li><a class=" button-post" href="#">Chia sẻ</a></li>
+                            </ul>
+                        </div>
+                        <div class="comment">
+                            <p class="user-comment">Phạm Bảo</p>
+                            <p class="content-comment">Bài viết rất hay</p>
+                        </div>
+                        <div class="comment-form">
+                            <input type="text" placeholder=" Viết bình luận" class="comment-type">
+                            <input type="button" value="Gửi" class="comment-send">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Kết thúc main -->
+            <!-- Bắt đầu adv -->
+
+            <div class="col-lg-2 adv">
+                <div class="adv-img">
+                    <img src="./img/DayLuiCovid19.jpg" alt="DayLuiCovid19">
+                </div>
+                <div class="adv-img">
+                    <img src="./img/dungyenkiacan.jpg" alt="dungyenkiacan">
+                </div>
+            </div>
+
+            <!-- Kết thúc adv -->
+        </div>
+        <!-- Bắt đầu: footer -->
+        <div class="row">
+            <div class="col-12 footer">
+                <ul class="footer-list">
+                    <li class="footer-item">Chịu trách nhiệm nội dung: Nhóm 6</li>
+                    <li class="footer-item">Địa chỉ: 96 Định Công - Hoàng Mai - Hà Nội</li>
+                    <li class="footer-item">Số điện thoại: 0383829797</li>
+                    <li class="footer-item">Giấy phép thiết lập MXH số 11/GP-BTTTT, Ký ngày: 01/04/2020</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Kết thúc: footer -->
+    </div>
+
+</body>
+
+</html>

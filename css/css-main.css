@@ -1,0 +1,178 @@
+body{
+    background-color: #dddddd;
+}
+
+/* Bắt đầu header */
+.header{
+    background-color: #192433;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.header-logo img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-nav{
+    margin-left: 20px;
+}
+
+.list-nav a{
+    text-decoration: none;
+    color: #222222;
+    height: 25px;
+    background-color: #0f82af;
+    padding: 4px 18px;
+    font-size: 15px;
+}
+
+.list-nav a:hover{
+    background-color: #0e7299;
+}
+
+/* Kết thúc header */
+
+/* Bắt đầu sidebar */
+
+.sidebar{
+    margin: 20px auto;
+}
+
+.sidebar h4{
+    margin-bottom: 20px;
+}
+
+.search-content{
+    width: 170px;
+    height: 28px;
+    border: 1px solid #AAA;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.search button{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.search button:hover{
+    background-color: #dddddd;
+}
+
+.menu{
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 215px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: #fff;
+}
+
+/* Kết thúc sidebar */
+
+/* Bắt đầu main */
+
+.main{
+    min-height: 750px;
+}
+
+.main .heading-new{
+    margin-top: 20px;
+    margin-left: 76.8px;
+    margin-bottom: 19px;
+}
+
+.content-index{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.content{
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin: 20px auto;
+}
+
+.content-left img{
+    height: 154px;
+    width: 250px;
+    border: 1px solid #EEE;
+    border-radius: 10px;
+}
+
+.content-right{
+    width: 500px;
+    margin-left: 20px;
+}
+
+.content-right a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-right a:hover{
+    color: #00bad6;
+}
+
+.content-right h2{
+    margin: 0;
+}
+
+/* Kết thúc main */
+
+/* Bắt đầu adv */
+
+.adv {
+    margin: 70px auto 20px auto;
+
+}
+
+.adv-img img{
+    height: 130px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+/* Kết thúc adv */
+
+/* Bắt đầu footer */
+
+.footer{
+    background-color: #192433;
+    color: #ffffff;
+    
+}
+
+.footer-list{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+/* Kết thúc footer */
